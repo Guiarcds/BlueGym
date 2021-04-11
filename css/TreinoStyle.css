@@ -1,0 +1,157 @@
+#exit-btn{
+  position: relative;
+  display: block;
+
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box
+}
+
+html {
+  font-family: sans-serif;
+  font-size: 1rem;
+  color: #444;
+}
+
+body {
+  background-image: url('../images/bg.jpg');
+  background-size: 100%;
+}
+
+#root {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  border-style: outset;
+}
+
+form {
+  display: block;
+}
+
+[type="text"],
+button {
+  display: inline-block;
+  -webkit-appearance: none;
+  padding: .5rem 1rem;
+  font-size: 1rem;
+  border: 2px outset #ccc;
+  border-radius: 4px;
+  margin: 5px;
+}
+
+button {
+  cursor: pointer;
+  background: black;
+  color: white;
+  border: 2px outset gray;
+  -webkit-border-radius: 35px !important;
+}
+
+p {
+  margin: 5px;
+}
+
+[type="text"] {
+  width: 100%;
+}
+
+[type="text"]:active,
+[type="text"]:focus {
+  outline: 0;
+  border: 2px solid #007bff;
+}
+
+[type="checkbox"] {
+  margin-right: 1rem;
+  font-size: 2rem;
+}
+
+h1 {
+
+  color: #222;
+  text-align: center;
+  border-style: outset;
+  -webkit-border-radius: 35px;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  margin-bottom: 1px;
+  background: #F8F8F8;
+  border-radius: 4px;
+}
+
+.container-login100 {
+  width: 100%;  
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+li span {
+  display: inline-block;
+  padding: .5rem;
+  width: 132px;
+  border-radius: 4px;
+  border: 2px solid transparent;
+}
+
+li a {
+  display: inline-block;
+  padding: .5rem;
+  width: 132px;
+  border-radius: 4px;
+  border: 2px solid transparent;
+  text-decoration: none;
+}
+
+li span:hover {
+  background: rgba(179, 215, 255, 0.52);
+}
+
+td b span:hover {
+  background: rgba(179, 215, 255, 0.52);
+}
+
+li span:focus {
+  outline: 0;
+  border: 2px solid #007bff;
+  background: rgba(179, 207, 255, 0.52)
+}
+
+.invisivel {
+  visibility: hidden;
+}
+
+li b span:hover {
+  background-color: transparent;
+}
+
+.header {
+  width: 100%;
+  text-align: center;
+  font-size: 25px;
+}
+
+.nomeTreinoEditavel:hover {
+ background: rgba(179, 215, 255, 0.52); 
+}
